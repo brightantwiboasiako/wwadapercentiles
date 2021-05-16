@@ -1,16 +1,19 @@
 Package: wwadapercentiles
-Title: What the Package Does (One Line, Title Case)
+Title: Percentiles for wrist-worn movement metrics in US youth and adults.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Bright",
+           family = "Antwi Boasiako",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "antwi@math.umass.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Gets age- and sex- specific percentiles for daily wrist-worn movement metrics in U.S. youth and adults. Percentiles are based on the combined 2011-2014 National Health and Nutrition Examination Survey (NHANES) cycles and the 2012 NHANES National Youth Fitness Survey (NNYFS).
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports:
+	gamlss.dist
