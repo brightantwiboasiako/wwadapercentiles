@@ -6,6 +6,7 @@
 #' @param age The age of the individual (must be at least 3)
 #' @param sex The sex of the individual (M for male and F for female)
 #'
+#' @return Belcher, Wolff-Hughes, Dooley, Staudenmayer, Berrigan, Eberhardt, and Troiano. (2021) U.S. Population-Referenced Percentiles for Wrist-Worn Accelerometer Derived Activity.
 #' @return The percentile(s) of the provided activity measurements
 #' @export
 #' @examples
