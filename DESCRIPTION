@@ -1,5 +1,5 @@
 Package: wwadapercentiles
-Title: Percentiles for wrist-worn movement metrics in US youth and adults.
+Title: Percentiles for wrist- and hip-worn accelerometer measurements in US youth and adults.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Bright",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "antwi@math.umass.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Gets age- and sex- specific percentiles for daily wrist-worn movement metrics in U.S. youth and adults. Percentiles are based on the combined 2011-2014 National Health and Nutrition Examination Survey (NHANES) cycles and the 2012 NHANES National Youth Fitness Survey (NNYFS).
+Description: Computes age- and sex- specific percentiles for daily accelerometer movement metrics in U.S. youth and adults. Percentiles are based on the 2003-2006 and the 2011-2014 National Health and Nutrition Examination Surveys (NHANES) cycles and the 2012 NHANES National Youth Fitness Survey (NNYFS).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
