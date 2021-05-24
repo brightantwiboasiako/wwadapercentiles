@@ -5,6 +5,8 @@
 #' @param y The activity level measurement
 #' @param age The age of the individual (must be between 6 and 85)
 #' @param sex The sex of the individual (M for male and F for female)
+#' @return Wolff DL, Fitzhugh EC, Bassett DR, Churilla JR. Waist-Worn Actigraphy: Population-Referenced Percentiles for Total Activity Counts in US Adults. Journal of physical activity & health. 2015;12(4):447-53.
+#' @return Wolff-Hughes DL, Bassett DR, Fitzhugh EC. Population-Referenced Percentiles for Waist-Worn Accelerometer-Derived Total Activity Counts in US Youth: 2003–2006 NHANES. PloS one. 2014;9(12):e115915.
 #'
 #' @return The percentile(s) of the provided activity measurements
 #' @export
